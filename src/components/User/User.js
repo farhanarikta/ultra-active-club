@@ -10,9 +10,9 @@ const User = () => {
           <img src={userImage} alt="" />
         </div>
         <div className="user-info">
-          <h2 className="name">MD Nazmus Sakib</h2>
+          <h2 className="name">MICHEL JESS</h2>
           <p className="address">
-            <GoLocation></GoLocation> 332, BSMRH Hall , HSTU
+            <GoLocation></GoLocation> Street:  341 Laurel Lee, Sedalia,Missouri.
           </p>
         </div>
       </div>
@@ -22,12 +22,8 @@ const User = () => {
           <p>Age</p>
         </div>
         <div className="Avarage">
-          <h1>112</h1>
-          <p>Mark</p>
-        </div>
-        <div className="age">
-          <h1>98</h1>
-          <p>Position</p>
+          <h1>8</h1>
+          <p>Desired Score</p>
         </div>
       </div>
     </div>

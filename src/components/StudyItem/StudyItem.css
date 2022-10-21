@@ -48,7 +48,7 @@
     margin: 20px auto ;
     border-radius: 15px;
     text-align: center;
-    background: green;
+    background:#176b28;
     background-image:  url('../../images/body-bg.png'),linear-gradient(45deg, #171717, transparent,#171717);
     color: #fff;
     background-blend-mode: color;
