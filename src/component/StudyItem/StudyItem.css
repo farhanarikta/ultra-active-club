@@ -1,0 +1,76 @@
+.study-item-card{
+    background: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: rgb(146 216 144) 0px 0px 40px -12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.card-img img{
+    background: #176b28;
+    background-image:  url('../../images/body-bg.png'),linear-gradient(45deg, #171717, transparent,#171717);
+    width: 100%;
+    opacity: .8;
+    
+}
+.card-text{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.card-text p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-text p strong{
+    font-weight: 500;
+}
+.card-text h3{
+    min-height: 60px;
+    border-bottom: 2px solid #ddd;
+    font-size: 500;
+}
+
+.card-text .details{
+    text-align: justify;
+}
+.card-footer{
+    margin-top: 0;
+}
+.card-btn {
+    display: block;
+    border: none;
+    padding: 13px;
+    width: 92%;
+    margin: 20px auto ;
+    border-radius: 15px;
+    text-align: center;
+    background: green;
+    background-image:  url('../../images/body-bg.png'),linear-gradient(45deg, #171717, transparent,#171717);
+    color: #fff;
+    background-blend-mode: color;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s all;
+}
+.card-btn:hover {
+    
+    background: #8b0404;
+    background-image: linear-gradient(45deg, #176b28, transparent,#176b28);
+    font-weight: 500;
+    color: #fff;
+    
+}
+.added {
+    border: 2px solid #176b28;
+
+    background: #8b0404;
+    background-image: linear-gradient(45deg, #171717, transparent,#171717);
+    font-weight: 500;
+    color: #fff;
+    
+}
